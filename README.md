@@ -14,7 +14,7 @@ To classify raw $8 \times 8$ grayscale image data (flattened to 64 features) and
 
 ```
 digit-prediction-api/
-├── app.py                  # FastAPI application code (your script, may be named main.py)
+├── main.py                  # FastAPI application code (your script, may be named main.py)
 ├── digits_model.pkl        # Pre-trained ML model (loaded by joblib)
 ├── requirements.txt        # Python package dependencies
 └── README.md               # This file
