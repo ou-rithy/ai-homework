@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydub
+numpy
+soundfile
+python-multipart
+# add one of the following depending on your model:
+torch        # if PyTorch model
+tensorflow   # if TensorFlow model
+joblib       # if pickled/sklearn-style
