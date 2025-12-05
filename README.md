@@ -68,10 +68,10 @@ pip install -r requirements.txt
 
 ## ▶️ Running the Application
 
-Use **Uvicorn**, the ASGI server, to run the FastAPI application. Assuming your main script is named `app.py`:
+Use **Uvicorn**, the ASGI server, to run the FastAPI application. Assuming your main script is named `main.py`:
 
 ```bash
-uvicorn app:app --reload
+uvicorn main:app --reload
 ```
 
   * The API will start running at `http://127.0.0.1:8000`.
